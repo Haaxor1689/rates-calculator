@@ -48,7 +48,7 @@ const Input = ({ value, onChange }: Props) => (
 	/>
 );
 
-export default function HomePage() {
+const HomePage = () => {
 	const [hourlyRate, setHourlyRate] = useState<number | null>(null);
 
 	return (
@@ -86,4 +86,5 @@ export default function HomePage() {
 			</div>
 		</main>
 	);
-}
+};
+export default HomePage;
